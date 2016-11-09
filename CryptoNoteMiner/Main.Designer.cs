@@ -172,7 +172,7 @@
 			this.Controls.Add(this.label1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
 			this.Name = "Main";
-			this.Text = "CryptoNote Miner";
+			this.Text = "CryptoNote Miner - DigitalNote (XDN)";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
