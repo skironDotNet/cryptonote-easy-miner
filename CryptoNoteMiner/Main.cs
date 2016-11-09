@@ -53,7 +53,7 @@ namespace CryptoNoteMiner
             simplewalletPath = AppDomain.CurrentDomain.BaseDirectory + @"binaries\simplewallet\" + platformString + @"\simplewallet.exe";
             cpuminerPath = AppDomain.CurrentDomain.BaseDirectory + @"binaries\cpuminer\" + platformString + @"\minerd.exe";
 
-            walletPath = AppDomain.CurrentDomain.BaseDirectory + @"wallet.address.txt";
+            walletPath = AppDomain.CurrentDomain.BaseDirectory + @"wallet.address";
 
             if (!File.Exists(simplewalletPath))
             {
