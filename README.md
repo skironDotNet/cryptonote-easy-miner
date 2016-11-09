@@ -11,7 +11,7 @@ The app will spawn instance of cpuminer for each core with the appropriate comma
 
 ####Note
 
-Please keep xdn.wallet file safe. This is your wallet with default password `x`
+Please keep `xdnwallet.wallet` file safe. This is your wallet with default password `x`
 
 ####Download
 
