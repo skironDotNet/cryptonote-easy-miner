@@ -138,16 +138,18 @@ namespace CryptoNoteMiner
 
             Process process = Process.Start(psi);
             process.EnableRaisingEvents = true;
-            process.Exited += (s, e) =>
-            {
-                if (!File.Exists(walletPath))
-                    MessageBox.Show("Failed to generate new wallet");
-                else 
-                    ReadWalletAddress();
-            };
+			process.Exited += Process_Exited;
         }
 
-        void startMiningProcesses()
+		private void Process_Exited(object sender, EventArgs e)
+		{
+			if (!File.Exists(walletPath))
+				MessageBox.Show("Failed to generate new wallet");
+			else
+				ReadWalletAddress();
+		}
+
+		void startMiningProcesses()
         {
             var args = new ArrayList(new[] { 
                 "-a cryptonight",
