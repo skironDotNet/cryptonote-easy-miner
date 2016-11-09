@@ -15,4 +15,4 @@ Please keep `xdnwallet.wallet` file safe. This is your wallet with default passw
 
 ####Download
 
-Get the latest build here: [releases](//github.com/zone117x/cryptonote-easy-miner/releases)
+Get the latest build here: [releases](//github.com/skironDotNet/cryptonote-easy-miner/releases)
