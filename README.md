@@ -1,4 +1,4 @@
-CryptoNote-Easy-Miner
+CryptoNote-Easy-Miner for DigitalNote (XDN)
 ===
 
 This is a simple C# app that helps Windows users start mining without dealing with command-line operated binaries. It is bundled with the latest 32 & 64 bit builds of simpleminer and simplewallet.
